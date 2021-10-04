@@ -1,7 +1,9 @@
 {
     "name": "squirephp/airports-en",
     "description": "A library containing the English translation of Squire's Airport model.",
-    "keywords": ["squire"],
+    "keywords": [
+        "squire"
+    ],
     "license": "MIT",
     "homepage": "https://github.com/squirephp",
     "support": {
@@ -15,10 +17,10 @@
         }
     ],
     "require": {
-        "php": "^7.2|^8.0",
-        "illuminate/support": "^6.0 || ^7.0 || ^8.0",
-        "squirephp/airports": "^2.0",
-        "squirephp/repository": "^2.0"
+        "php": "^8.0",
+        "illuminate/support": "^8.0",
+        "squirephp/airports": "self.version",
+        "squirephp/repository": "self.version"
     },
     "autoload": {
         "psr-4": {
